@@ -20,26 +20,26 @@ Diskusjons oppgave.
 
 Noen exepler på variabler som kunne være tilstede i dette systemet er
 
--   Tempraturen til deien `float` som _T_
--   Fuktigheten til deien `float` som _F_
--   Om deigen har aktiv gjær i seg `bool` som _G_
+- Tempraturen til deien `float` som _T_
+- Fuktigheten til deien `float` som _F_
+- Om deigen har aktiv gjær i seg `bool` som _G_
 
 Vi setter opp en forsøks gruppe. Den består av alle permutasjoner av:
 
 <!-- tall1:tall2:tall3 betyr i en rekkevidde fra tall1 til tall3 med steg på tall2 -->
 <!-- tall1:tall3 betyr i en rekkefividde fra tall1 til tall3 -->
 
--   _T_ målt i en rekkevidden `0:20:100`&#176;c
--   _F_ målt i rekkevidden `0:.2:1`%
--   _G_
+- _T_ målt i en rekkevidden `0:20:100`&#176;c
+- _F_ målt i rekkevidden `0:.2:1`%
+- _G_
 
 <!-- Det følgende er kun gjetting og ikke basert på experimenter -->
 
 Når vi utfører disse experimentene finner vi ut at; for at deigen skal heves. At vi må ha elementer som er i dette setet:
 
--   _T_ : [ `20 : 40` ]
--   _F_ : [ `.2 : .6` ]
--   _G_ : [ `true` ]
+- _T_ : [ `20 : 40` ]
+- _F_ : [ `.2 : .6` ]
+- _G_ : [ `true` ]
 
 ## 1.204
 
