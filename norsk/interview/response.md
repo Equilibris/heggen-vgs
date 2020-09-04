@@ -8,7 +8,7 @@ Fotball - bredde fotball for herrer får ikke spille pga korona, det er ikke lov
 
 # 3:
 
-Sove lenge men ikke for lenge. Lage en god frokost. En god engelsk frokost uten bønner. logge på sofaen slappet litt av. Foren på fotballbanen litt; fordi den perfekte dagen å ha fint vær (~20 grader og sol). Spist en god middag, dette kunne vært lasangje. Gjør absolutt ingenting. SÅ legge seg middnatt.
+Sove lenge men ikke for lenge. Lage en god frokost. En god engelsk frokost uten bønner. logge på sofaen slappet litt av. Foren på fotballbanen litt; fordi den perfekte dagen å ha fint vær (~20 grader og sol). Spist en god middag, dette kunne vært lasangje. Gjør absolutt ingenting. Så legge seg middnatt.
 
 # 4:
 
