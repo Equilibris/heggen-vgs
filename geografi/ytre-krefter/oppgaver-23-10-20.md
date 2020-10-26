@@ -14,7 +14,7 @@ Morene, skarpe kanter
 
 # Hva slags type forvitring er vanligst i områder med isbreer og arktisk klima?
 
-mekanisk forvitling; isbree forvitling
+mekanisk forvitling; frost forvitling
 
 # Hva er kjemisk forvitring?
 
