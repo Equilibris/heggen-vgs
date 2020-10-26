@@ -64,11 +64,9 @@ every president in the US up to Obama has ben an ethnic white male usually ultra
 
 ## c
 
-> **_yes_** a man is is aproning me. _ooOOooOo_ hes also black! Time to shot.
+<!-- there was more -->
 
-This is an relatively offensive text depicting for the absolutely idiotic behavior of american police men, confederates and KKK members.
-
-This also protects people shotting in 'self defence' that is; put simply; disappointing from such a proud global nation.
+This protects people shotting in 'self defence' that is; put simply; disappointing from such a proud global nation.
 
 # page 213 task 4 &ndash; understand & reflect
 
