@@ -1,6 +1,6 @@
 # 2.3##
 
-## 2.300
+## 00
 
 ### a
 
@@ -14,7 +14,7 @@ positiv ladning (kation)
 
 negativ lading (anion)
 
-## 2.301
+## 01
 
 ### a
 
@@ -28,15 +28,15 @@ Et stoff som er bygd opp av ionebinninger
 
 Ikke konduktiv, løselig i vann, hyt høyt smeltepunkt
 
-## 2.302
+## 02
 
 Na<sup>-</sup>, Cl<sup>+</sup>. Ionebinning.
 
-## 2.303
+## 03
 
 O<sup>2-</sup>, Na<sup>-</sup>, Mg<sup>2-</sup>, Al<sup>3-</sup>,Cl<sup>+</sup>, O<sup>2+-</sup>, K<sup>-</sup>
 
-## 2.305
+## 05
 
 CaF<sub>2</sub>,
 
@@ -48,7 +48,7 @@ Indextallet indikeret at det er 2x F og kun 1 Ca.
 
 Ca har 2 elektroner i det ytterste skallet mens F kun trenger 1. Derfor trenges det 2 F får å gji Ca edelgass struktur.
 
-## 2.306
+## 06
 
 ### a
 
@@ -67,5 +67,76 @@ nøytralt ladet, O
 Positivt ladet, Al<sup>3+</sup>
 
 # 2.4##
+
+## 00
+
+### a
+
+en kovalent binning er hvor to atomer deler på ellektroner immelom seg
+
+### b
+
+fordi salter er bygd på at det er positive og negative ladet ioner som danner en latice struktur. Måten disse ionene blir dannet på er gjennom ionebinninger. Ikke-metaler kan ikke skape elektronbinninger med andre ikke-metaler. De kan kunn skape kovolente binninger. Derfor lages det molekyler og ikke salter.
+
+### c
+
+mengden elektroner som blir delt
+
+### d
+
+polare kovolente binninger lager ladete poler mens ikke-polare gjør det ikke
+
+## 02
+
+### a
+
+```
+    H
+    .
+H . C . H
+    .
+    H
+```
+
+### b
+
+```
+    F
+   . .
+F : C : F
+   . .
+    F
+```
+
+### c
+
+```
+H . S . H
+```
+
+### d
+
+```
+   H
+   .
+   N
+H.   .H
+```
+
+## 05
+
+### a
+
+ikke bipolar. samme element
+
+### b
+
+```
+ +
+ c
+...
+ o
+ -
+```
 
 # 2.5##
