@@ -18,6 +18,8 @@ Pro – Cheap to run
 
 Con – Expensive to build
 
+https://www.nrk.no/sapmi/radioaktive-rein-i-norge-1.11976339
+
 # gen 4
 
 ## [gen 4](https://en.wikipedia.org/wiki/Generation_IV_reactor)
