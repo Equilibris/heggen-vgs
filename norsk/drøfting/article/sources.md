@@ -19,6 +19,9 @@ Pro – Cheap to run
 Con – Expensive to build
 
 https://www.nrk.no/sapmi/radioaktive-rein-i-norge-1.11976339
+https://www.nasa.gov/topics/earth/features/vapor_warming.html
+https://www.energy.gov/articles/us-department-energy-releases-revised-total-system-life-cycle-cost-estimate-and-fee
+https://robertstoneproductions.com/project/pandoras-promise/
 
 # gen 4
 

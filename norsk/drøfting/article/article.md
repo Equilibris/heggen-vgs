@@ -1,7 +1,7 @@
 <!-- 5 (7) model -->
 
 <!-- title -->
-
+# Kraften til fremtiden eller en udetonert bombe
 <!-- intro -->
 
 Helt siden sinn lansering til verden har kjernekraft vært et hett tema innen energi, sikkerhet og politikk. Noen mener at det er for utrygt, dyrt, lite bærekraftig eller for nytt. Mens andre mener at det er det eneste som virkelig kan redde verden fra klimaendringene påført av fossile brensel. Gjennom denne artikkelen skal vi stille disse argumentene mot hverandre i et objektivt lys for å se hvem som skinner gjennom best.
@@ -14,7 +14,7 @@ Noe av det mest attraktive med kjernekraft er at det har et nullutslipp av karbo
 <!-- arg1 - against -->
 <!-- nuclear waste -->
 
-Farene knyttet til radioaktivt avfall er, potensielt, et av de mest brukte argumentene mot kjernekraft. Dette er logisk, effektene av radioaktivitet er tydelige: mutasjoner i gener, radioaktiv mat og kreft er alle sterke grunner til å ikke bille ha radioaktivitet i nærmiljøet. Dette er hvorfor statlige aktører bygger avfalls dumper, men de er dyr og ikke særlig utspredte. USA har tildelt en lokasjon for radioaktivt avfall, *Yucca mountain* Nevada. Denne lokasjonen har kostet milliarder<sup>[ Citation needed ]</sup> amerikanske dollar (USD) &mdash; som først og fremst øker kostnadene av den totale pipelinen til kjernekraftverk, men som vi også ser ikke blir brukt. Innen USA, selv om at det har et aktivt avfalls anlegg innsettes særdeles lite avfall dit. Dette betyr da at det er flere _midlertidige_ avfalls lagrings plantasjer rundt omkring hele landet. Dette betyr at radioaktiviteten spres unødvendig og, siden byggene ikke kan brukes til noe annet, vil så lede til at bygningen må bygges og rives unødvendig. Dette er ikke særlig bærekraftig. Dette blir et større problem siden kraftverkene går tom for på-premiss lagring for avfall &mdash; noe som vil si at radioaktivt materiale ikke blir lagret ordentlig <sup>[ Citation needed ]</sup>.
+Farene knyttet til radioaktivt avfall er, potensielt, et av de mest brukte argumentene mot kjernekraft. Dette er logisk, effektene av radioaktivitet er tydelige: mutasjoner i gener, radioaktiv mat og kreft er alle sterke grunner til å ikke bille ha radioaktivitet i nærmiljøet. Dette er hvorfor statlige aktører bygger avfalls dumper, men de er dyr og ikke særlig utspredte. USA har tildelt en lokasjon for radioaktivt avfall, _Yucca mountain_ Nevada. Denne lokasjonen har kostet milliarder amerikanske dollar (USD) &mdash; som først og fremst øker kostnadene av den totale pipelinen til kjernekraftverk, men som vi også ser ikke blir brukt. Innen USA, selv om at det har et aktivt avfalls anlegg innsettes særdeles lite avfall dit. Dette betyr da at det er flere _midlertidige_ avfalls lagrings plantasjer rundt omkring hele landet. Dette betyr at radioaktiviteten spres unødvendig og, siden byggene ikke kan brukes til noe annet, vil så lede til at bygningen må bygges og rives unødvendig. Dette er ikke særlig bærekraftig. Dette blir et større problem siden kraftverkene går tom for på-premiss lagring for avfall &mdash; noe som vil si at radioaktivt materiale ikke blir lagret ordentlig.
 
 <!-- arg2 - for -->
 <!-- non-intermittency -->
@@ -28,7 +28,13 @@ Når man snakker om atomkraftverk er det umulig å ikke nevne hva som skjer hvis
 
 <!-- drøfting -->
 
+Selv om atomkraft er karbonnøytrale, er ikke utvinningen av drivstoffer som uran og thorium det. Dette vil si at i realiteten er ikke kraftverkene helt karbonnøytrale. For dem å være det må alt utvinnings utstyret også bli elektrisk. Dette hadde ikke vært særlig gjør bart grunnet hvor mye det er som tar del i den prosessen. Derfor er dette dessverre ikke helt sant. Dette er ikke det eneste argumentet med denne effekten da. Som nevnt i det første argumentet mot kjernekraft som er radioaktivt avfall. Dette er et stort problem, men det er teknologi som kan assistere mot dette. Moderne generasjon 4 (GEN IV) reaktorer. Disse har nemlig evnen til å kunne bruke sitt eget avfall som drivstoff for kontinuerlige reaksjoner. Dette betyr at det eneste biproduktet ut av en moderne produksjons pipeline er ikke radioaktiv 'stein'. Dette vil da si at ikke bare er atomkraftverk _karbonnøytral_ (i energiproduksjons prosessen ikke utvinning og utbygging) er de også _biprodukt nøytral. Det neste argumentet for atomkraft om at de kan kjøre kontinuerlig er egentlig vanntett, men det som ikke var nevnt var at kull og oljekraftverk begge også har denne evnen. Selv om kontinuitet ikke er unikt for kjernekraft er det fortsatt et positivt argument. Det eneste er at jo lenger den er i drift jo større sjanse det er for at noe går galt. Som leder oss til det siste argumentet mot kjernekraft. Potensialet for en meltdown er skremmende for alle. Dette er logisk fordi etter Tsjernobyl var det prosjektert til å være 4,000 'liquidators' (militære eller sivil personal som assisterte i opprydningen etter ulykken) som døde tidligere enn forventet grunnet dette. Dette er et stor tall, men &mdash; sammen med avfall reduksjon reduseres dette med moderne teknologi. Overaskende nokk er det ikke kun *gen IV* som kan være framtiden. Det er også noe som kalles en SMR (small modular reactor). Dette er en reaktor designet for å være for liten for en kjernefysisk meltdown. Dette er fordi som navnet refererer til er de små; for små for å starte en løpsk / ute av kontroll reaksjon. Selvfølgelig er dette ny teknologi som trenger testing men det virker lovende og blir bedre med tiden.
+
 <!-- konklusion -->
+
+For å konkludere: atomkraft har sine farer, men det innebærer også mye positivt for energi behov og klimaet. Hvis utført bra kan en kombinasjon av sikre SMRer kombinert med store avfallsprosesserende GEN 4 reaktorer erstatte fossile brensler mens de ikke taper noe på sikkerhet. Dette kan lede til en sterk reduksjon av klimagasser som CO<sub>2</sub> og hjelper verden til en grønnere framtid.
+
+<!-- kilder -->
 
 <!-- handoff -->
 
