@@ -14,3 +14,17 @@ De var i Norge før norge fikk sine landegrenser.
 
 Dette betyr at den samiske kulturen vekkes til live igjen eller får nytt liv. Dette kan komme til basert på en ny intresse etter at fornosknings prosessen har feilet
 
+# hva er den viktigeste grunnen til at norske storfamilier blir til kjernefamilier
+
+- urbanisering
+- studier
+
+# hva er forskjellen mellom ekteskap og sammboerskap
+
+ekteskap er automatiskt finansielt konfigurert mens sammboerskap er ikke det og er også ikke-religiøst
+
+# hva er forskjellen mellom engangsstøned og foreldrepenger
+
+engangsstønad &mdash; for noen som ikke er i arbeid
+
+foreldre penger &mdash; for noen i jobb
