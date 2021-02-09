@@ -1,0 +1,3 @@
+# oppgave 3 side 119
+
+Da var tiden kommen. Stemningen på turen fram til huset var melankolis på det beste. Følelsene resonerte rundt i kabinen på toget. På stasjonen ser han henne, mutteren som var igjen etter det som skjedde med faren. Hun hadde smilet sitt klistret på denne gangen også; hun hadde avventet meg lenge. Kaffen hun hadde kjøpt tidligere var blitt kald, men selv med det har aldri stoppet henne. Munnen hennes flyttet seg i takt med det hun sa, lite viste hun at dette kom til å endre seg snart. Følgene dette var det min tur. Endelig min tur. Etter å ha tatt hevn en gang for alle var ikke seieren bare søt, den kjentes nesten litt bitter ut, umulig å sette fingeren på, men tilstedeværende.

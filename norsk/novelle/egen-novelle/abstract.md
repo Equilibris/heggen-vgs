@@ -15,7 +15,7 @@ Metanovelle
 
 # vendepunkt
 
-bokmål - nynorsk oversetter
+brytning av den 4. veggen
 
 # person
 
