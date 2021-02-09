@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			/* prettier-ignore */
+			html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;} /* HTML5 display-role reset for older browsers */ /* prettier-ignore */
+			article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display: block;} /* prettier-ignore */
+			body {line-height: 1;} /* prettier-ignore */
+			ol,ul {list-style: none;} /* prettier-ignore */
+			blockquote,q { quotes: none;} /* prettier-ignore */
+			blockquote:before,blockquote:after,q:before,q:after {content: '';content: none;} /* prettier-ignore */
+			table {border-collapse: collapse;border-spacing: 0;}
+		</style>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				background-color: #2e2e2e;
+
+				height: 100vh;
+				width: 100vw;
+			}
+			.render {
+				display: grid;
+
+				grid-template-columns: repeat(10, 1fr);
+				height: 80vmin;
+				width: 80vmin;
+
+				border-radius: 36px;
+				background: #2e2e2e;
+				box-shadow: 9px 9px 18px #272727, -9px -9px 18px #353535;
+			}
+			/* STYLE */
+			.render > * {
+				margin: auto;
+
+				height: 100%;
+				width: 100%;
+
+				border-radius: 100vmax;
+				/* animation-name: animate;
+				animation-duration: 0s;
+				animation-fill-mode: both;
+				animation-timing-function: ease; */
+				animation: animate 0s ease delay both;
+			}
+
+			@keyframes animate {
+				0% {
+					background: #6d6be1;
+					/* box-shadow: 2.5px 2.5px 8px #6260cb, -2.5px -2.5px 8px #7876f8; */
+				}
+				100% {
+					background: #d6614c;
+					/* box-shadow: 2.5px 2.5px 8px #c15744, -2.5px -2.5px 8px #eb6b54; */
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="render">/* BODY */</div>
+	</body>
+</html>
