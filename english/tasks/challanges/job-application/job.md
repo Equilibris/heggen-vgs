@@ -1,0 +1,2 @@
+- QA Engineer
+- Experience in Cypress, Typescript, React, Webpack
