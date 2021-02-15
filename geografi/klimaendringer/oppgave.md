@@ -1,4 +1,4 @@
-<!-- * >>> https://applications.itslearning.com/Resource/ViewFile.aspx?mode=FileOnly&Accessibility=False&allowedhtmlcodelevel=Restricted&ApiSessionId=o1a1ab45yvgkdxns1hp2r0yk&ContextRole=Learner&countrycode=NO&CustomerId=900972&educationsegment=1&Encoding=utf8&extrauserinformationpermissions=None&FirstName=William+Bj%c3%b8rn&isextensionmanager=False&itslearningenvironmentid=eu1&itslearningversion=3.118.0.529&Language=nb-NO&LastName=S%c3%b8rensen&LearningObjectId=221231718&LearningObjectInstanceId=318370627&Locale=nb-NO&LocationId=1679&OlsonTimeZoneId=Europe%2fOslo&openedforpreview=False&OpenedFromCourse=True&Permissions=Read%2c+Participate&personid=408537&ReadOnly=False&Role=Learner&Use12HTimeFormat=False&UserId=148567169&UserName=willsren1&userrightsprivacy=None&WindowsTimeZoneId=Central+European+Standard+Time&Timestamp=2021-02-08T09%3a44%3a59&EditInBrowser=false&isPopUp=true&Signature=af6bec4e39407252a3d0673d38844a2d -->
+<!-- * >>> https://tffk.itslearning.com/ContentArea/ContentArea.aspx?LocationID=1679&LocationType=1 -->
 
 # oppgave 1. Hva er global oppvarming
 
@@ -8,6 +8,25 @@ Drivhus effekten er en tilbakekoblingseffekt som inneberer det at klimaet på jo
 
 ## betydning
 
-Effektene av global oppvarming er ganske dramantisk. Noe av det mest fundementale som s
+Effektene av global oppvarming er ganske dramatisk. Noe av det mest fundamentale som dette leder til er surere hav og mindre ferskvann skildre. Dette betyr at dyr i havet må tilpasse seg eller dø mens dyr som trenger ferskvann. Dette reduserer arts mangfoldet som betyr at noen arter dør ut og noen arter taper naturlige rovdyr som i sinn tur leder til en eksplosiv vekst av dem; noe som vil lede til katastrofale økosystem kollapser. Et økosystem kan være tenkt på som en betinget fornybar resurs fordi man kan utnytte den for mat, men hvis man tar for mye kan en art bli utryddet noe som leder til at du får mer av det du mest sannsynlig ikke trenger. I en situasjon der et helt økosystem kollapser som etter klimaendringer kan man ikke bruke den til noe lenger noe som betyr at resursen er brukt opp.
 
-## begrunnelse
+# oppgave 2
+
+![greenland and Norway](./resources/greenland-and-norway.png)
+
+# oppgave 3
+
+# oppgave 4 bilder sinn sammenheng
+
+## tabel
+
+| image | description |
+| :---: | ----------- |
+
+# skilder
+
+- https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter12_FINAL.pdf @33
+- https://climate.nasa.gov/news/2940/greenlands-rapid-melt-will-mean-more-flooding/
+- https://www.businessinsider.com/paris-climate-change-limits-100-years-2017-6?r=US&IR=T
+- https://www.tropicaltidbits.com/
+- https://en.wikipedia.org/wiki/Greenland#/media/File:Topographic_map_of_Greenland_bedrock.jpg
