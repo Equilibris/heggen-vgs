@@ -14,6 +14,10 @@ Effektene av global oppvarming er ganske dramatisk. Noe av det mest fundamentale
 
 ![greenland and Norway](./resources/greenland-and-norway.png)
 
+## Oslo kommune
+
+![Oslo kommune](./resources/oslo-kommune.png)
+
 # oppgave 3
 
 # oppgave 4 bilder sinn sammenheng
@@ -30,3 +34,4 @@ Effektene av global oppvarming er ganske dramatisk. Noe av det mest fundamentale
 - https://www.businessinsider.com/paris-climate-change-limits-100-years-2017-6?r=US&IR=T
 - https://www.tropicaltidbits.com/
 - https://en.wikipedia.org/wiki/Greenland#/media/File:Topographic_map_of_Greenland_bedrock.jpg
+- https://no.wikipedia.org/wiki/Norges_klima#/media/Fil:Norway_K%C3%B6ppen.svg
