@@ -12,11 +12,16 @@ Effektene av global oppvarming er ganske dramatisk. Noe av det mest fundamentale
 
 # oppgave 2
 
+## Grønnland
+
 ![greenland and Norway](./resources/greenland-and-norway.png)
 
 ## Oslo kommune
 
-![Oslo kommune](./resources/oslo-kommune.png)
+Oslo kommune er kommunen som inneholder Oslo, hovedstaden i norge. Oslo 
+
+![Oslo kommune close up](./resources/oslo-kommune.png)
+![Oslo kommune nasjonal plasering](./resources/oslo-kommune-makro.png)
 
 # oppgave 3
 
@@ -35,3 +40,4 @@ Effektene av global oppvarming er ganske dramatisk. Noe av det mest fundamentale
 - https://www.tropicaltidbits.com/
 - https://en.wikipedia.org/wiki/Greenland#/media/File:Topographic_map_of_Greenland_bedrock.jpg
 - https://no.wikipedia.org/wiki/Norges_klima#/media/Fil:Norway_K%C3%B6ppen.svg
+- https://en.wikipedia.org/wiki/Oslo#Climate
