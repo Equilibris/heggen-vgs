@@ -18,7 +18,7 @@ Effektene av global oppvarming er ganske dramatisk. Noe av det mest fundamentale
 
 ## Oslo kommune
 
-Oslo kommune er kommunen som inneholder Oslo, hovedstaden i norge. Oslo 
+Oslo kommune er kommunen som inneholder Oslo, hovedstaden i norge. Oslo er det mest befolkningsrike byen i Norge, derfor er det positivt å
 
 ![Oslo kommune close up](./resources/oslo-kommune.png)
 ![Oslo kommune nasjonal plasering](./resources/oslo-kommune-makro.png)
