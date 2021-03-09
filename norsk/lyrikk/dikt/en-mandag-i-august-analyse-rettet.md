@@ -1,0 +1,14 @@
+# En mandag i august analyse
+
+_En mandag i august_ er et dikt skrevet av Lina Undrum Mariussen ( 1980 - ) og publisert i diktsamlingen _Finne deg der inne og hente deg ut_. Motivet i diktet er at det lyriske-jeg enten snakker til en 'du' person eller skriver et brev til hen. Vi kommer til å utdype på det sistnevnte senere under tolkningen. Temaet i diktet virker som sorg eller tap, men det kan også tolkes som trøstende eller oppløftende. Dette er alt etter hvordan man ser på faktumet av verden fortsetter uten stans selv etter tap. Det er et tydelig lyriske-jeg som er effektivt rettet mot en død eller levende 'du' person.
+
+
+Formen av diktet er ingenting særskilt. Det følger en relativt standard struktur med tre vers som kan tolkes som akter innenfor handlingen i diktet. Noe av det mest interessante med diktstrukturen er at det er ingen punktum gjennom hele teksten. Dette leder til en flyt i diktet der de eneste pausene er rommene mellom versene. Første vers består av 5 strofer med varierende lengder, dette kommer av bare en avviker som er over 2 ganger så lang som noen av de andre strofene. Det andre verset består mer av 10 strofer &mdash; noe som gir det en veldig stor oppslutning i diktet. Dette passer bra siden dette er der mesteparten av eksposisjonen i diktet ligger. Det er også varierende lengder på strofer i dette verset, men det er ingen tydelig avviker siden variasjonsbredden virker relativt konstant. Det tredje og siste verset av diktet er kort igjen på bare 6 strofer. Totalt er det 21 strofer i diktet delt opp i 3 vers.
+
+Diktet utnytter mange virkemidler der den mest tydelige er metaforer. Det første eksempelet kommer allerede så tidlig som den første strofen: _'en mandag i august er du en tom stol'_. Dette er noe som kunne vært en sammenligning, men siden den ikke inneholder ordet 'som' er det en metafor.
+
+Jeg har tolket denne teksten til at 'du' personen er død. Kanskje var hen klinisk deprimert og tok sitt egent liv eller så var hen terminalt syk med noe som for eksempel kreft. Denne teksten tar så plass etter at 'du' døde og basereer seg på at det lyriske-jeg skriver et 'brev' til dem for å håndtere sorgen. Det mest tydelige argumentet for dette er at hele teksten er skrevet i en retrospektiv synsvinkel, eller mer spesifikk en forklaring til 'du' personen om hva som har skjedd etter at de forsvant. I denne tolkningen så er strofen _'Jeg stryker deg varmt over ryggen'_ metaforisk. Det kan for eksempel være det lyriske-jeg sitt største ønske er å være med 'du' personen igjen og at i dette brevet så skriver de det som om det er sant.
+
+Alt i alt er denne novellen veldig bra skrevet med en veldig effektiv og rørende handling. Den har bra bruk av virkemidler og setter vekt på teksten istedenfor formen &mdash; noe som vi ser fungerer veldig effektivt. Det kan også vise at verden tar ikke slutt selv om man tar slutt; et dystert men oppløftende motiv.
+
+
