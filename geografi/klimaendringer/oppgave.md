@@ -24,7 +24,6 @@ Grønlands isen står i fare. Hvis global oppvarming fortsetter på den trenden 
 
 ![warm](./resources/global-climate-change.png)
 
-
 ## Oslo kommune
 
 Oslo kommune er kommunen som inneholder Oslo, hovedstaden i Norge. Oslo er lokalisert i Fuktig kontinentalklima (Dfb) i følge _Köppen_ klima modellen. Dette innebærer milde summere og årlig gjevt distribuert nedbør &mdash; altså på snitt like mye nedbør om sommeren som i vinteren. Noe annet som kommer med denne klima klassifikasjonen er en stor variasjon i temperatur fra sommer til vinter fordi kategorien kaller for en måne kaldere enn -3&deg;c og 4 måner med mer enn 10&deg;c.
