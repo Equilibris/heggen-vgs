@@ -1,0 +1,24 @@
+- alle oppgaver fra arbeidsplanen
+- Tap av energi per led (90% / 10%)
+- Opphopning av miljøgjifter ((10%)^(-1)) per ledd)
+- Begreper
+  - Økosystem
+  - populasjon
+  - symbiose
+    - parasitisme
+    - mutualisme
+    - komensialisme
+  - Evolusjon
+    - Evolusjons teorien
+    - Survival of the fitest
+      - De som e mest apt for deres miljø og har evenen til å reprodusere seg
+    - naturlig utvalg
+    - Klimaendriner og arter
+    - velg et økosystem
+    - biodiversity
+      - Ta vare på arter, gener og miljøet
+      - Ungå incest
+      - Gjør økosystemet mer robust
+      - Ikke vær *'bestead' 'føre var'* prinsipet
+    - 
+

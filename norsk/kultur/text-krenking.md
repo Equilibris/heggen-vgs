@@ -1,0 +1,6 @@
+# Er det krenkende å synes at noe er krenkende for andre?
+
+I moderne tid så har populariteten av _Cancel Couture_ spred seg over internetet. Dette går ut på at en gruppe mennesker forsøker å ødelege noen sinn kariære ettersom de synes at de har gjort noe dorlig &mdash; ikke mot dem, men heller mot en gruppe mennesker de ser på som undertrykket. Dette er hvor problemet kommer inn i bildet, er det krenkende å kategorisere en guppe mennesker som undertrykket? Eller mer konkret er det ok å _'gate keepe'_ hva som er for eksempel rasistiskt?
+
+Hvis noe du sa for +10år siden kunne ødelege hele kariæren din og dine framtidige muligheter? Dette virker overlig brutalt. Dette er fordi det er det. Normer er ikke fast, de er fluid. Noe man gjør i dag som er aksepter som en vits blir kanskje gransket<!-- Scrutinized --> om noen år. Dette kan lede til at man mister jobben sinn eller værre. Dette skjer ikke ofte med flertallet av befolkningen, men de det skjer med kan det være brutalt. Det er noen situasjoner der dette er valid og kanskje til og med nødvendig, men ofte så er det bare mal-plassert hat. I nylig tid skjer dette i possisjoner som, for eksempel, hvite, unge menn som cancelerer noen ettersom de synes de er rasistisk mot en minoritet de ikke er del i. Er dette krenkende mot gruppen det gjelder? Burde *Cancel Couture* kanselere seg selv?
+
