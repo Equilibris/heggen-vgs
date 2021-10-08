@@ -1,0 +1,31 @@
+{
+	"short_name": "Weather",
+	"name": "Weather: Do I need an umbrella?",
+	"icons": [
+		{
+			"src": "/favicon.ico",
+			"type": "image/png",
+			"sizes": "256x256"
+		}
+	],
+	"start_url": "/?source=pwa",
+	"background_color": "#EEEEEE",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#d81b60",
+	"shortcuts": [
+		{
+			"name": "Home",
+			"short_name": "Home",
+			"description": "View weather information for today",
+			"url": "/today?source=pwa"
+		},
+		{
+			"name": "Catalogue",
+			"short_name": "Catalogue",
+			"description": "Catalogue",
+			"url": "/catalogue"
+		}
+	],
+	"description": "NFT-viewer"
+}

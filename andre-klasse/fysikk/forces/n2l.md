@@ -43,3 +43,12 @@ $$a = \frac{g~m_0}{0.7kg}$$
 
 b:
 $$\Sigma F = R + G = m_1 \mu ~ g + g~m_0 = m ~ a \iff a = \frac{m_1 \mu ~ g + g~m_0}{m_0+m_1} = 9.81 ~ \frac{\mu ~ 0.2kg  + 0.5kg}{0.5kg+0.2kg} \iff \mu = 5 / 2$$
+
+# 2.61
+
+a:
+$$\Sigma F = m~a = 56kg ~ 3.5\frac{m}{s^2} = 196.0n$$
+
+b:
+
+$$\Sigma F = 0.45kg~a = 30kg \frac{m}{s^2}\iff a = 30 / 0.45=66.6666666666$$
