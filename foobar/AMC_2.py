@@ -1,100 +1,59 @@
 from fractions import Fraction, gcd
 import numpy as np
+# def convert_to_markov_parts(m):
+#     term_states = []
+#     new_matrix = []
+#     for (ind, s) in enumerate(m):
+#         if sum(s) == 0:
+#             term_states.append(ind)
+#         else:
+#             new_matrix.append(s)
 
-def transpose(m):
-    return [list(i)for i in zip(*m)]
+#     m = new_matrix
 
-
-def minor(m, i, j):
-    return [row[:j] + row[j+1:] for row in (m[:i]+m[i+1:])]
-
-
-def det(m):
-    # base case for 2x2 matrix
-    if len(m) == 2:
-        return m[0][0]*m[1][1]-m[0][1]*m[1][0]
-
-    d = 0
-    for c in range(len(m)):
-        d += ((-1)**c)*m[0][c] * \
-            det(minor(m, 0, c))
-    return d
-
-
-def inv(m):
-    d = det(m)
-    # special case for 2x2 matrix:
-    if len(m) == 2:
-        return [[m[1][1]/d, -1*m[0][1]/d],
-                [-1*m[1][0]/d, m[0][0]/d]]
-
-    # find matrix of cofactors
-    cof = []
-    for r in range(len(m)):
-        cof_row = []
-        for c in range(len(m)):
-            minor = minor(m, r, c)
-            cof_row.append(((-1)**(r+c)) * det(minor))
-        cof.append(cof_row)
-    cof = transpose(cof)
-    for r in range(len(cof)):
-        for c in range(len(cof)):
-            cof[r][c] = cof[r][c]/d
-    return cof
-
-
-def matrix_mul(a, b):
-    m = len(a)
-    p = len(b[0])
-
-    output = [[0 for i in range(p)] for i in range(m)]
-
-    for inner_index, row in enumerate(transpose(b)):
-        for outer_index, i in enumerate(a):
-            output[outer_index][inner_index] = (
-                sum(map(lambda a: a[0]*a[1], zip(row, i))))
-
-    return output
-
-
-def transform_primary_matrix_zeroes(m):
-    zeroes_index = -1
-    for index, el in enumerate(m[::-1]):
-        if not any(el):
-            # direct progression
-            if index == zeroes_index + 1:
-                zeroes_index += 1
-                continue
-
-            m[-1 - index], m[-1 - zeroes_index] = m[-1 - zeroes_index], m[-1 - index]
-
-            for i in m:
-                i[-1 - index], i[-1 - zeroes_index] = \
-                    i[-1 - zeroes_index], i[-1 - index]
-
-            zeroes_index += 1
+#     Q = []
+#     R = []
+#     for s in m:
+#         Q_new = []
+#         R_new = []
+#         for (ind, x) in enumerate(s):
+#             if ind in term_states:
+#                 R_new.append(x)
+#             else:
+#                 Q_new.append(x)
+#         Q.append(Q_new)
+#         R.append(R_new)
+#     return (Q, R)
 
 
 def get_data(l):
-    primary_matrix = [[Fraction(i, sum(x)) if sum(x) else Fraction(0)
-                       for i in x] for x in l]
-
-    transform_primary_matrix_zeroes(primary_matrix)
+    primary_matrix = [[i/sum(x) if sum(x) else 0 for i in x] for x in l]
 
     non_terminal = [any(i) for i in l]
+    term_index_pushback = []
 
-    return non_terminal, primary_matrix
+    zero_counts = 0
+
+    for index, i in enumerate(l):
+        if any(i):
+            term_index_pushback.insert(
+                len(term_index_pushback) - zero_counts, index)
+        else:
+            term_index_pushback.append(index)
+            zero_counts += 1
+
+    return non_terminal, primary_matrix, term_index_pushback
 
 
 def kronecker_delta(a, b): return int(a == b)
 
 
-def get_imq(l, nt):
-    return [[kronecker_delta(J, I) - j for J, j in enumerate(i) if nt[J]] for I, i in enumerate(l) if nt[I]]
+def get_q(l, nt, term_index_pushback):
+    return [[l[I][J] for J in term_index_pushback if nt[J]]for I in term_index_pushback if nt[I]]
 
 
-def get_r(l, nt):
-    return [[j for J, j in enumerate(i) if not nt[J]] for I, i in enumerate(l) if nt[I]]
+def get_r(l, nt, term_index_pushback):
+    return [[l[I][J] for J in term_index_pushback if not nt[J]]for I in term_index_pushback if nt[I]]
 
 
 def lcm(a, b):
@@ -112,31 +71,24 @@ def reduce_fractions(arr):
 
 
 def solution(m):
-    non_terminal, primary_matrix = get_data(m)
+    if len(m) < 2:
+        return [1, 1]
 
-    r = get_r(primary_matrix, non_terminal)
-    imq = get_imq(primary_matrix, non_terminal)
-    matrix = inv(imq)
-    # print(*imq, sep='\n')
-    # print()
-    # print(*matrix, sep='\n')
-    # print()
-    # print(*r, sep='\n')
+    non_terminal, primary_matrix, term_index_pushback = get_data(m)
 
-    out = matrix_mul(matrix, r)[0]
+    r = np.matrix(get_r(primary_matrix, non_terminal, term_index_pushback))
+    q = np.matrix(get_q(primary_matrix, non_terminal, term_index_pushback))
 
-    # v = out[0].denominator
-    # for i in out[1:]:
-    #     v = lcm(v, i.denominator)
-    return reduce_fractions(out)
+    i = np.matrix([[float(j == i) for j in range(len(q))]
+                  for i in range(len(q))])
 
-    # return [i.numerator * v//i.denominator for i in out] + [v]
+    return reduce_fractions(np.matmul(np.linalg.inv(np.subtract(i, q)), r).tolist()[0])
 
 
 if __name__ == '__main__':
     import AMC_shared as amc
 
-    print(solution(amc.b))
+    print(solution(amc.b), amc.b_sol)
     # print(solution(amc.a))
     # print(solution(amc.a2))
     # m1 = [[3, 5, -1], [4, 0, 2], [-6, -3, 2]]
