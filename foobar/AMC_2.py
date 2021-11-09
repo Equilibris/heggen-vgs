@@ -1,24 +1,10 @@
 from fractions import Fraction
-import numpy as np
+import numpy
 
 
 def get_data(l):
     primary_matrix = [[i/sum(x) if sum(x) else 0 for i in x] for x in l]
-
-    non_terminal = [any(i) for i in l]
-    term_index_pushback = []
-
-    zero_counts = 0
-
-    for index, i in enumerate(l):
-        if any(i):
-            term_index_pushback.insert(
-                len(term_index_pushback) - zero_counts, index)
-        else:
-            term_index_pushback.append(index)
-            zero_counts += 1
-
-    return non_terminal, primary_matrix, term_index_pushback
+    return  primary_matrix
 
 
 def convert_to_markov_parts(m):
@@ -52,7 +38,7 @@ def reduce_fractions_(arr):
 
     v = out[0].denominator
     for i in out[1:]:
-        v = np.lcm(v, i.denominator)
+        v = numpy.lcm(v, i.denominator)
     return [i.numerator * (v // i.denominator) for i in out] + v
 
 
@@ -60,7 +46,7 @@ def reduce_fractions(arr):
     arr = [Fraction(x).limit_denominator() for x in arr]
     the_lcd = 1
     for x in arr:
-        the_lcd = np.lcm(the_lcd, x.denominator)
+        the_lcd = numpy.lcm(the_lcd, x.denominator)
     return [x.numerator * (the_lcd // x.denominator) for x in arr] + [the_lcd]
 
 
@@ -68,20 +54,20 @@ def solution(m):
     if len(m) < 2:
         return [1, 1]
 
-    non_terminal, primary_matrix, term_index_pushback = get_data(m)
+    primary_matrix = get_data(m)
 
     _q, _r = convert_to_markov_parts(primary_matrix)
 
-    r = np.matrix(_r)
-    q = np.matrix(_q)
+    r = numpy.matrix(_r)
+    q = numpy.matrix(_q)
 
-    i = np.matrix([[float(j == i) for j in range(len(q))]
+    i = numpy.matrix([[float(j == i) for j in range(len(q))]
                   for i in range(len(q))])
 
-    imq = np.subtract(i, q)
-    n = np.linalg.inv(imq)
+    imq = numpy.subtract(i, q)
+    n = imq.I
 
-    out = np.dot(n, r)
+    out = numpy.dot(n, r)
 
     return reduce_fractions(out[0, 0:].flat)
 
