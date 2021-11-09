@@ -2,9 +2,12 @@ from fractions import Fraction
 import numpy
 
 
-def get_data(l):
-    primary_matrix = [[i/sum(x) if sum(x) else 0 for i in x] for x in l]
-    return  primary_matrix
+def array_to_fractions(arr):
+    total = float(sum(arr))
+    if total == 0:
+        return [0] * len(arr)
+    # use floats here, numpy likes it more
+    return [float(x) / total for x in arr]
 
 
 def convert_to_markov_parts(m):
@@ -16,7 +19,8 @@ def convert_to_markov_parts(m):
         else:
             new_matrix.append(s)
 
-    m = new_matrix
+    # m = [array_to_fractions(i) for i in new_matrix]
+    m = [[i/sum(x) if any(x) else 0 for i in x] for x in new_matrix]
 
     Q = []
     R = []
@@ -33,46 +37,63 @@ def convert_to_markov_parts(m):
     return (Q, R)
 
 
-def reduce_fractions_(arr):
-    out = [Fraction(i).limit_denominator(100) for i in arr]
+def get_data(l):
+    primary_matrix = [[i/sum(x) if any(x) else 0 for i in x] for x in l]
 
-    v = out[0].denominator
-    for i in out[1:]:
-        v = numpy.lcm(v, i.denominator)
-    return [i.numerator * (v // i.denominator) for i in out] + v
+    non_terminal = [any(i) for i in l]
+    term_index_pushback = []
+
+    zero_counts = 0
+
+    for index, i in enumerate(l):
+        if any(i):
+            term_index_pushback.insert(
+                len(term_index_pushback) - zero_counts, index)
+        else:
+            term_index_pushback.append(index)
+            zero_counts += 1
+
+    return non_terminal, primary_matrix, term_index_pushback
+
+
+def kronecker_delta(a, b): return int(a == b)
+
+
+# def get_q(l, nt, term_index_pushback):
+#     return [[l[I][J] for J in term_index_pushback if nt[J]]for I in term_index_pushback if nt[I]]
+
+
+# def get_r(l, nt, term_index_pushback):
+#     return [[l[I][J] for J in term_index_pushback if not nt[J]]for I in term_index_pushback if nt[I]]
 
 
 def reduce_fractions(arr):
     arr = [Fraction(x).limit_denominator() for x in arr]
-    the_lcd = 1
+    v = 1
     for x in arr:
-        the_lcd = numpy.lcm(the_lcd, x.denominator)
-    return [x.numerator * (the_lcd // x.denominator) for x in arr] + [the_lcd]
+        v = numpy.lcm(v, x.denominator)
+    return [x.numerator * (v // x.denominator) for x in arr] + [v]
 
 
 def solution(m):
     if len(m) < 2:
         return [1, 1]
 
-    primary_matrix = get_data(m)
+    non_terminal, primary_matrix, term_index_pushback = get_data(m)
 
-    _q, _r = convert_to_markov_parts(primary_matrix)
-
-    r = numpy.matrix(_r)
-    q = numpy.matrix(_q)
-
-    i = numpy.matrix([[float(j == i) for j in range(len(q))]
-                  for i in range(len(q))])
+    q, r = convert_to_markov_parts(m)
+    i = numpy.identity(len(q))
 
     imq = numpy.subtract(i, q)
-    n = imq.I
+    n = numpy.linalg.inv(imq)
 
     out = numpy.dot(n, r)
 
-    return reduce_fractions(out[0, 0:].flat)
+    return reduce_fractions(out[0])
 
 
 def error(a, b):
+    print(a, b)
     return sum(i-j for i, j in zip(a, b))
 
 
