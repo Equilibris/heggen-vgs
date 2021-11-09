@@ -49,3 +49,16 @@ button {
 		background-color: #2cf0f3;
 	}
 }
+
+.anim-in {
+	animation: anin 1s ease-in-out;
+}
+
+@keyframes anin {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

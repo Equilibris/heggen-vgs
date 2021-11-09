@@ -1,4 +1,4 @@
-import { createContext, FC, useContext, useState } from 'react'
+import { createContext, FC, useContext, useRef, useState } from 'react'
 import kropp from './assets/kropp-cropped.gif'
 import armstrekkeren from './assets/armstrekkeren-fixed.mp3'
 import brede_ryggmuskel from './assets/brede_ryggmuskel.mp3'
@@ -98,13 +98,60 @@ const Oppgave1 = () => {
 }
 
 const Oppgave2 = () => {
+	const ref = useRef<HTMLTextAreaElement>(null)
+
 	return (
 		<div>
-			<select onChange={(v) => console.log(v.currentTarget.value)}>
-				<option value='hello'>hello</option>
-				<option value='hello2'>hello2</option>
-				<option value='hello3'>hello3</option>
-			</select>
+			<form
+				onSubmit={(e) => {
+					e.preventDefault()
+					const data = new FormData(e.currentTarget)
+
+					const activity = parseFloat((data.get('activity') as string) || '0')
+					const intensity =
+						{
+							low: 0.8,
+							medium: 1,
+							high: 1.2,
+						}[data.get('intensity') as string] || 1
+
+					const duration = parseFloat(
+						`${(data.get('duration') as string) || 0}`
+					)
+
+					if (ref.current)
+						ref.current.value = `${(activity * intensity * duration) / 60}kcal`
+				}}>
+				<select
+					onChange={(v) => console.log(v.currentTarget.value)}
+					name='activity'>
+					<option value='814'>Aerobics</option>
+					<option value='236'>Bordtennis</option>
+					<option value='510'>Fotball</option>
+					<option value='244'>Golf</option>
+					<option value='666'>Jogging</option>
+				</select>
+
+				<div>
+					<input type='radio' name='intensity' value='low' id='low' />
+					<label htmlFor='low'>Lav</label>
+					<input type='radio' name='intensity' value='medium' id='medium' />
+					<label htmlFor='medium'>Middels</label>
+					<input type='radio' id='high' name='intensity' value='high' />
+					<label htmlFor='high'>high</label>
+				</div>
+
+				<label htmlFor='duration'>Duration</label>
+				<input type='number' step='0.001' name='duration' id='duration' />
+
+				<button>Submit</button>
+			</form>
+
+			<textarea
+				name='result'
+				contentEditable='false'
+				value='Svar'
+				ref={ref}></textarea>
 		</div>
 	)
 }
