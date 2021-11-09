@@ -1,29 +1,5 @@
-from fractions import Fraction, gcd
+from fractions import Fraction
 import numpy as np
-# def convert_to_markov_parts(m):
-#     term_states = []
-#     new_matrix = []
-#     for (ind, s) in enumerate(m):
-#         if sum(s) == 0:
-#             term_states.append(ind)
-#         else:
-#             new_matrix.append(s)
-
-#     m = new_matrix
-
-#     Q = []
-#     R = []
-#     for s in m:
-#         Q_new = []
-#         R_new = []
-#         for (ind, x) in enumerate(s):
-#             if ind in term_states:
-#                 R_new.append(x)
-#             else:
-#                 Q_new.append(x)
-#         Q.append(Q_new)
-#         R.append(R_new)
-#     return (Q, R)
 
 
 def get_data(l):
@@ -45,9 +21,6 @@ def get_data(l):
     return non_terminal, primary_matrix, term_index_pushback
 
 
-def kronecker_delta(a, b): return int(a == b)
-
-
 def get_q(l, nt, term_index_pushback):
     return [[l[I][J] for J in term_index_pushback if nt[J]]for I in term_index_pushback if nt[I]]
 
@@ -56,8 +29,13 @@ def get_r(l, nt, term_index_pushback):
     return [[l[I][J] for J in term_index_pushback if not nt[J]]for I in term_index_pushback if nt[I]]
 
 
-def lcm(a, b):
-    return abs(a*b) // gcd(a, b)
+def reduce_fractions_(arr):
+    out = [Fraction(i).limit_denominator(100) for i in arr]
+
+    v = out[0].denominator
+    for i in out[1:]:
+        v = np.lcm(v, i.denominator)
+    return [i.numerator * (v // i.denominator) for i in out] + v
 
 
 def reduce_fractions(arr):
@@ -65,9 +43,7 @@ def reduce_fractions(arr):
     the_lcd = 1
     for x in arr:
         the_lcd = np.lcm(the_lcd, x.denominator)
-    out_arr = [(x.numerator * int(the_lcd / x.denominator)) for x in arr]
-    out_arr.append(the_lcd)
-    return out_arr
+    return [x.numerator * (the_lcd // x.denominator) for x in arr] + [the_lcd]
 
 
 def solution(m):
@@ -82,13 +58,24 @@ def solution(m):
     i = np.matrix([[float(j == i) for j in range(len(q))]
                   for i in range(len(q))])
 
-    return reduce_fractions(np.matmul(np.linalg.inv(np.subtract(i, q)), r).tolist()[0])
+    imq = np.subtract(i, q)
+    n = np.linalg.inv(imq)
+
+    out = np.dot(n, r)
+
+    return reduce_fractions(out[0, 0:].flat)
+
+
+def error(a, b):
+    return sum(i-j for i, j in zip(a, b))
 
 
 if __name__ == '__main__':
     import AMC_shared as amc
 
-    print(solution(amc.b), amc.b_sol)
+    print(error(solution(amc.b), amc.b_sol))
+    print(error(solution(amc.a), amc.a_sol))
+    print(error(solution(amc.a2), amc.a_sol))
     # print(solution(amc.a))
     # print(solution(amc.a2))
     # m1 = [[3, 5, -1], [4, 0, 2], [-6, -3, 2]]
