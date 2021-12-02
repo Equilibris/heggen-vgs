@@ -59,3 +59,40 @@ $$v = \sqrt{g~5.2}$$
 $$\frac{mgh_0 + \frac 1 2 m v_0^2 - \frac 1 2 mv_1^2}{mg} = h_1$$
 $$\frac{0.25~g~35 + \frac 1 2 0.25(15^2 - 7.5^2)}{0.25~g} = h_1$$
 $$\frac{0.25~g~35 + 21.09375}{0.25~g} = h_1 = 43.60091743119266m$$
+
+### 3.38
+
+$$mgh_0 + \frac 1 2 m v_0^2 = mgh + \frac 1 2 m v^2$$
+$$\sqrt{2(g0.4 - g0.1)} = v$$
+
+### 3.39
+
+$$l_0 = (0,k)$$
+
+$$|\vec {v_0}| =k$$
+$$\vec {v_0} = (k\cos\alpha,k~\sin\alpha)$$
+$$\vec a = (0,-g)$$
+
+$$\Delta v(t)=\int_0^t \vec a~dx= (0,-tg)$$
+
+$$
+\Delta l(t) = \int_0^t \Delta v(x)+\vec {v_0}~dx = \int_0^t (k\cos\alpha,k~\sin\alpha -xg)~dx = \begin{pmatrix}t~k\cos\alpha\\ t k~\sin\alpha -t^2g\end{pmatrix}
+$$
+
+$$-t^2g - t~k~\sin\alpha - k = $$
+
+$$t=\frac{-k~\sin\alpha \pm \sqrt{{(k~\sin\alpha)}^2 - 4gk}}{-2g}$$
+$$t=\frac{k~\sin\alpha + \sqrt{{(k~\sin\alpha)}^2 - 4gk}}{2g}$$
+
+---
+
+$$\begin{vmatrix}t~k\cos\alpha\\ t k~\sin\alpha -t^2g+k\end{vmatrix}=\sqrt{{(t~k\cos\alpha)}^2+{(t k~\sin\alpha -t^2g+k)}^2}$$
+
+
+### next
+$$\frac{2}g = h_1$$
+
+$$v_0 = \sqrt{2gh_1}$$
+
+$$\frac8g = h_1$$
+

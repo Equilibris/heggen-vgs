@@ -2,43 +2,8 @@ from fractions import Fraction
 import numpy
 
 
-def array_to_fractions(arr):
-    total = float(sum(arr))
-    if total == 0:
-        return [0] * len(arr)
-    # use floats here, numpy likes it more
-    return [float(x) / total for x in arr]
-
-
-def convert_to_markov_parts(m):
-    term_states = []
-    new_matrix = []
-    for (ind, s) in enumerate(m):
-        if sum(s) == 0:
-            term_states.append(ind)
-        else:
-            new_matrix.append(s)
-
-    # m = [array_to_fractions(i) for i in new_matrix]
-    m = [[i/sum(x) if any(x) else 0 for i in x] for x in new_matrix]
-
-    Q = []
-    R = []
-    for s in m:
-        Q_new = []
-        R_new = []
-        for (ind, x) in enumerate(s):
-            if ind in term_states:
-                R_new.append(x)
-            else:
-                Q_new.append(x)
-        Q.append(Q_new)
-        R.append(R_new)
-    return (Q, R)
-
-
 def get_data(l):
-    primary_matrix = [[i/sum(x) if any(x) else 0 for i in x] for x in l]
+    primary_matrix = [[i/float(sum(x)) if any(x) else 0 for i in x] for x in l]
 
     non_terminal = [any(i) for i in l]
     term_index_pushback = []
@@ -56,15 +21,12 @@ def get_data(l):
     return non_terminal, primary_matrix, term_index_pushback
 
 
-def kronecker_delta(a, b): return int(a == b)
+def get_q(l, nt, term_index_pushback):
+    return [[l[I][J] for J in term_index_pushback if nt[J]]for I in term_index_pushback if nt[I]]
 
 
-# def get_q(l, nt, term_index_pushback):
-#     return [[l[I][J] for J in term_index_pushback if nt[J]]for I in term_index_pushback if nt[I]]
-
-
-# def get_r(l, nt, term_index_pushback):
-#     return [[l[I][J] for J in term_index_pushback if not nt[J]]for I in term_index_pushback if nt[I]]
+def get_r(l, nt, term_index_pushback):
+    return [[l[I][J] for J in term_index_pushback if not nt[J]]for I in term_index_pushback if nt[I]]
 
 
 def reduce_fractions(arr):
@@ -81,7 +43,8 @@ def solution(m):
 
     non_terminal, primary_matrix, term_index_pushback = get_data(m)
 
-    q, r = convert_to_markov_parts(m)
+    q = get_q(primary_matrix, non_terminal, term_index_pushback)
+    r = get_r(primary_matrix, non_terminal, term_index_pushback)
     i = numpy.identity(len(q))
 
     imq = numpy.subtract(i, q)
