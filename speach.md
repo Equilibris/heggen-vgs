@@ -1,0 +1,13 @@
+- Kjære middelmådige ungdom og lærer i 2STD.
+- Det er ikke noe vits å stresse over fag som ikke vil være tellende i framtiden.
+- Gjør det som kan ha en påvirkning på framtiden din, ikke kast bruk tiden på uviktige skoleoppgaver og i stedet gjør noe du synes er gøy.
+- Ta deg tid for å slappe av, ikke overtenk for mye, avliving er ikke løsningen.
+- Snakk med noen du stoler på hvis du sliter, og vær snill mot deg selv og andre.
+- Vær åpen for å hjelpe andre og ta imot hjelpen fra dem. Det kan hende du sliter selv om du ikke vil innrømme det.
+- Ikke kast bort ungdommen din på være redd for å bli gammel, det vil bare resultere i at man blir gammel enda fortere uten å ha gjort noe i ungdommen sin.
+- Ta vare på kroppen din, ikke la den bli påvirket av andres meninger og syn på hvordan du burde se ut.
+- Bruk internettet til det det er vert, ikke bare bruk det til å lese, men utforsk de forskjellige mulighetene. Få deg nye venner, finn noe gøy å gjøre og ikke vær redd for å prøve noe som kan virke skummelt, men som kan endre livet ditt.
+- Møt alle og deg selv med åpne armer, du vet aldri når de kan trenge det.
+- Møt alle og deg selv med åpne ører, du vet aldri hvor mye du kan lære fra dem.
+- Møt alle og deg selv med åpent sinn, du vet aldri hvor verdifull en tankegang kan være.
+- Kle deg brillene av den andres øyer, det er lettere enn å lese deres tanker.
