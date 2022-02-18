@@ -67,7 +67,7 @@ $$a=\frac{- \mu~Mg -(1+\mu)mg\frac{\sqrt{2}}{2} + mg}{m+M}$$
           N
 \ R  /\  /
  \ \/  \/
-  \/    \ 
+  \/    \
    \    / |
     \  /  |
      \/   G
@@ -75,7 +75,6 @@ $$a=\frac{- \mu~Mg -(1+\mu)mg\frac{\sqrt{2}}{2} + mg}{m+M}$$
 ```
 
 $$\Sigma F = \vec N + \vec G + \vec R= \vec a m$$
-
 
 $$|\vec R| = |\vec N| \mu$$
 $$\vec R \cdot \vec a = -|\vec a||\vec R|=-|\vec a||\vec N| \mu$$
