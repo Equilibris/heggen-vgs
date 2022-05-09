@@ -7,8 +7,7 @@ Gener koder til proteiner; proeiner så utfører egenskapen. Hvis strukturen på
 <!-- TODO: EXEMPEL -->
 
 ```
-FAR TAR SIN BLÅ BÅT MED ROR
-
+[ORIGINAL]     FAR TAR SIN BLÅ BÅT MED ROR
 [SUBSTITUSJON] FAR TAR DIN bLÅ BÅT MED ROR
 [INSESJON]     FAR TAR hDI NBL ÅBÅ TME DRO R
 ```
@@ -19,23 +18,41 @@ Derfra følger det at du kan ha en substisusjon som lager en mindre endring (og 
 
 ## b
 
-I en gelelektroforese så skilles DNA fragmenter etter størrelse. Dette betyr så at hvis det er en tjukk linje på en strekning er det mye DNA der enn hvis det hadde vert en tynn linje
+I en gelelektroforese så skilles DNA fragmenter etter størrelse. Dette betyr så at hvis det er en tjukk linje på en strekning er det mye DNA der enn hvis det hadde vert en tynn linje.
 
-He is `tt` since we can deduce that he is not sick. We can do this through noting that person [#] and [#] are sick and this is reppresented in their gelelecrohprosye results.
+Vi vet også at person 7 & 13 er syk. Dette kan tyde til at det syke allelet har rundt 1/3 så mange baser som det friske genet. Vi kan også se at når en person er syk har de mye tynnere linjer enn en frisk person. Dette er da grunnet det vi snakket om i §1.
 
-Width codes for quantity
-
-Thick lines on 2 mean homozygus dom, and on 6 homozygus res. The other alternatives mean hetrozygus
+Gjennom dette kan vi også anslå at person 14 har gentypen homozygote reciciv (`tt`) og dermed en frisk fenotype
 
 ## c
 
-ja men nei. fordi i praksis så får du ikke et palyndrom som blir produsert fra det som betyr at den blir ikke _så_ anderleses.
-
-restriksjons enzym
+Gjennom dette vil jeg si **nei**. Ja sekvensen blir kortere, men ikke med mye Det er mulig å trekke en sammenheng mellom lengden på sekvensen og resultatet i gelelektrofyresen, men Dette er en delusjonal sammenheng. Det som menes med dette er grunnet med hvordan PCR fundementalt funker. PCR bruker et restriksjons enzym (eller alternativt [[KLIPPE]] enzym) noe som da søker etter palyndromer. Sannsynligheten for at et palyndrom dannes av en delesjon er like stor som en substitusjon, insersjon eller annet. Derfor, selv om basesekvensen er kortere er den bare dette med en base, noe som ikke vises i en gelelektroforese.
 
 ## d
 
-eeTt
+Vi begynner med å sette opp opplysninge vi vet.
+
+9 mor: ttEe
+
+mulige kjønnsceller: [te, te, tE, tE]
+
+Vi vet også de følgenge faktaene om faren:
+
+- han kan ikke være homozygot `TT` siden han får barn som er frisk
+- han kan ikke være homozygot `EE` siden han får barn som er frisk
+- han kan ikke ha mer enn èn sykdom ettersom han får barn som er frisk
+
+Dette etterlater så to genotyper, `Ttee` og `ttEe`.
+Vi kan så redusere dette enda mer av at vi vet han må ha minst en genvariant av
+
+| ♂,♀ | te   | te   | tE   | tE   |
+| --- | ---- | ---- | ---- | ---- |
+| xx  | texx | texx | tExx | tExx |
+| xx  | texx | texx | tExx | tExx |
+| xx  | texx | texx | tExx | tExx |
+| xx  | texx | texx | tExx | tExx |
+
+<!-- eeTt -->
 
 ## e
 
