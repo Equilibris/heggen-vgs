@@ -59,7 +59,7 @@ $$U=\sigma T^4$$
 Where U is the radiation density and T is absolute temperature.
 
 ---
-
+	
 $$I\Big[\frac W{m^2}\Big] = \frac{P}{4\pi r^2}$$
 This is really the same as radiation density of a sphere but expanded for defusion.
 
