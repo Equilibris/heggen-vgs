@@ -1,0 +1,11 @@
+# Egenvurdering
+
+Gjennom dette året har jeg hat mange aktiviteter som har tatt prioritet over norsken. Dette er dessverre noe som må ha blitt gjort. Det var ingenting som kunne ha blitt gjort i en situasjon som dette, men med det sakt vil jeg drøfte hvordan jeg har oppnådd kompetansemålene og hatt en forbedrende prosess gjennom året.
+
+Til å begynne med kan det diskuteres hva jeg synes jeg gjør det bra på. Jeg føler jeg har vært sterk muntlig gjennom dette året og har hatt medvirkning gjennom fagets intrikate temaer. Jeg føler jeg har utfyllende informasjon om de forskjellige kompetansemålene til et punkt der jeg kan diskutere og drøfte det meste av dem. Det jeg synes er spesielt interessant i norskfaget er retorikk og etymologi. Vi har hatt minkende på det sistnevnte, men derimot retorikk har vi hatt om og dette har jeg likt en god del. Jeg føler meg komfortabel i min retoriske evne til punktet av dagsbruk og relevante sammenknyttinger gjennom temaer. Dette kommer fra at en stor andel av timene jeg ikke har hatt muligheten til å ha norsk har jeg hatt taler og presentasjoner gjennom elev-politikken. I disse situasjonene har jeg måtte brukt de 4 retoriske virkemidlene vi har lært gjennom året. Dette har vært særdeles nyttig og har hatt stort utbytte.
+
+Når det kommer til skriveevnen min, er jeg mindre fornøyd. Selv om jeg kan drøfte og argumentere føler jeg at jeg har hatt svak skriveevne dette terminet. Dette kan grunnes dysleksi eller kompleksiteten av situasjonen hjemme i nylig tid. Dette er ikke unnskyldning heller observasjonelle antakelser.
+
+Og til slutt til å nevne det jeg er ufordøyd med hvor bra jeg har gjort i år. Jeg føler jeg har ikke vært flink nokk til å analysere det historiske innenfor Norsk. Hva mener jeg med dette? Jo jeg føler diskusjoner om for eksempel norrøn tid og historiene Norsk (ikke som språk, men som samfunnsobjekt). Disse er da temaer jeg føler er for abstrakt for meg. Dette er noe jeg håper å forbedre meg til neste år. 
+
+Til å konkludere. Jeg føler jeg er nokså god til Norsk skriftlige temaer. Innfor da jeg er sterkere i noen temaer og svakere i andre. Muntlig føler jeg at jeg ligger sterkt an. Dette er basert på flere argumentasjoner, men hovedsakelig min retoriske evne og deltakelse i dagligdags aktiviteter.
