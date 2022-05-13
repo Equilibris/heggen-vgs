@@ -188,16 +188,18 @@ flowchart BT
   &gamma; --> Nordrev
 ```
 
-Vi har navngitt elementene på følgende vis førr å kunne forklare hva hypotesene *egentlig* sier.
+Vi har navngitt elementene på følgende vis førr å kunne forklare hva hypotesene _egentlig_ sier.
 
 Dette er gjort fordi vi får tilgang til en funksjon av to elementer, `ancestor(X, Y)`
 
-TODO: æ rakk ikke bli ferdig, beklage astrid. æ skal fixe d førr torsdag.
+# Hvorfor hypotese 2 er feil
+
+Hypotese 2 er feil ettersom den ikke legger til rette for &gamma; å dannes. Det går serfølgelig fortsatt ann, men det har en sannsynlighet på 0.
 
 <!-- **Hypotese 1**: `ancestor(Grårev) -->
 
 
-Grunnlegger effekten
+<!-- Grunnlegger effekten -->
 
 ## d
 
