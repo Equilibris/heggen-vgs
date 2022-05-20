@@ -192,12 +192,13 @@ Vi har navngitt elementene på følgende vis førr å kunne forklare hva hypotes
 
 Dette er gjort fordi vi får tilgang til en funksjon av to elementer, `ancestor(X, Y)`
 
-# Hvorfor hypotese 2 er feil
+### Hvorfor hypotese 2 er feil
 
-Hypotese 2 er feil ettersom den ikke legger til rette for &gamma; å dannes. Det går serfølgelig fortsatt ann, men det har en sannsynlighet på 0.
+<!-- Hypotese 2 er mest sannsynlig feil fordi den tilsir at Nordreven må ha blitt dannet av en migrasjon av &gamma; til en av de nordere øyene. Dette gjer ikke mening gjennom hvor mye reise som må gjøres da -->
+
+<!-- Hypotese 2 er feil ettersom den ikke legger til rette for &gamma; å dannes. Det går serfølgelig fortsatt ann, men det har en sannsynlighet på 0. -->
 
 <!-- **Hypotese 1**: `ancestor(Grårev) -->
-
 
 <!-- Grunnlegger effekten -->
 
@@ -231,7 +232,11 @@ Sterilt / ikke levedyktig
 
 ## a
 
-Et optimalt lokus for denne oppgaven er et lokus som ofte varierer drastisk mellom individer
+Områder med høy akkumelasjon
+
+Områder som akumelerer mutasjoner over tid
+
+Ikke kodende områder som for eksempel introner.
 
 ## b
 
@@ -257,7 +262,16 @@ Har desverre ikke tid til dette før innlevering. Ferdig resultat skal fremstill
 
 ## d
 
-Medfølger oppgave c
+Hvis 2 gener er koblet så vil det si at arver du den ene genvarianten fra en forelder arver du også en annen. Dette kan synes på diagramet under:
+
+```
+b    aa    a a    aa aa    a a a a
+|    ||    | |    || ||    | | | |
+|    \/    \ /    \/ \/    | | | |
+|    /\    / \    /\ /\    | | | |
+|    ||    | |    || ||    | | | |
+a    bb    b b    bb bb    b b b b
+```
 
 # Kilder
 
